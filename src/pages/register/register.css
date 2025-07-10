@@ -1,0 +1,77 @@
+.register_img{
+  width: 50%;
+  text-align: center;
+}
+
+.register_img img{
+  width: 90%;
+  object-fit: contain;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.register_form{
+  padding: 0px 20px; 
+}
+
+.register_container{
+  margin-top: 100px;
+  padding: 30px;
+  background-color: #302e2e;
+  border-radius: 10px;
+}
+
+.register_form p{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.register_container p a{
+  color: yellow;
+}
+
+.register_form h2{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.7rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.register_form input{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.register_form input:focus{
+  outline: none;
+  border: 2px solid yellow;
+}
+
+.register_form button{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.register_form button:hover{
+  background-color: yellow;
+  color: black;
+}
+
+.register_form button:active{
+  background-color: black;
+  color: yellow;
+}
