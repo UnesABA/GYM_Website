@@ -1,9 +1,10 @@
 import { Container, Row } from "reactstrap";
 import logo from "../../assets/images/logo.jpg";
 import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../../context/AuthContext";
 import "./header.css";
-import { useRef } from "react";
 
 const nav__links = [
   {
@@ -20,7 +21,10 @@ const nav__links = [
   },
 ];
 
+
 const Header = () => {
+  const { user, logout } = useContext(AuthContext);
+
   return (
     <header className="header ">
       <Container>
@@ -46,8 +50,22 @@ const Header = () => {
               </ul>
             </div>
             <div className="d-flex align-items-center justify-content-between gap-3">
-              <button className="btn btn-secondary"><Link to="/login">Login</Link></button>
-              <button className="btn btn-primary"><Link to="/register">Register</Link></button>
+              {!user && (
+                <>
+                  <Link to="/login" className="btn login_button">
+                    Sign in
+                  </Link>
+                  <Link to="/register" className="btn register_button">
+                    Register
+                  </Link>
+                </>
+              )}
+
+              {user && (
+                <Link onClick={logout} to="/login" className="btn login_button">
+                  Sign out
+                </Link>
+              )}
             </div>
           </div>
         </Row>

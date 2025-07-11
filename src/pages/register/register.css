@@ -1,5 +1,9 @@
+.register_container{
+  padding: 10px;
+}
+
 .register_img{
-  width: 50%;
+  width: 40%;
   text-align: center;
 }
 
