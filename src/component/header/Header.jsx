@@ -26,7 +26,7 @@ const Header = () => {
   const { user, logout } = useContext(AuthContext);
 
   return (
-    <header className="header ">
+    <header className="header">
       <Container>
         <Row>
           <div className="d-flex align-items-center justify-content-between">

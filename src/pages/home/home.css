@@ -1,0 +1,42 @@
+.home_page{
+  background-image: url('../../assets/images/home_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.video_container{
+  position: relative;
+  margin: 0 auto;
+}
+
+.home_video{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 5px;
+}
+
+.home_description{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.home_description a{
+  color: black;
+  background-color: #FFD700;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0px 5px;
+}

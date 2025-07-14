@@ -1,17 +1,19 @@
-/* ===== Header ===== */
 .header {
+  background: black;
+  position: sticky;
+  top: 0;
   width: 100%;
   height: 80px;
   line-height: 80px;
+  z-index: 999;
 }
 
-/* ===== Logo ===== */
 .logo img {
   width: 50%;
   max-width: 300px;
+  border-radius: 5px;
 }
 
-/* ===== Navigation Menu ===== */
 .menu {
   margin-bottom: 0;
 }
@@ -27,7 +29,6 @@
   color: yellow;
 }
 
-/* ===== Buttons (Login & Register) ===== */
 .login_button,
 .register_button {
   padding: 10px 20px;
@@ -37,7 +38,6 @@
   cursor: pointer;
 }
 
-/* --- Login Button --- */
 .login_button {
   background-color: yellow;
   color: black;
@@ -55,7 +55,6 @@
   color: yellow;
 }
 
-/* --- Register Button --- */
 .register_button {
   background-color: black;
   color: yellow;
@@ -71,4 +70,16 @@
 .register_button:active {
   background-color: yellow;
   color: black;
+}
+
+.sticky__header{
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 8px -3px #ddd;
+  z-index: 999;
 }
