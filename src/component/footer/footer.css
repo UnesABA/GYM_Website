@@ -1,0 +1,25 @@
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 40px;
+  padding: 2px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #FFD700;
+}
