@@ -8,8 +8,8 @@ import "./header.css";
 
 const nav__links = [
   {
-    path: "/classes",
-    display: "Classes",
+    path: "/workout",
+    display: "Workout",
   },
   {
     path: "/training",

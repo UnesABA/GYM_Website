@@ -1,6 +1,6 @@
-import biceps from "../../../assets/images/biceps.mp4"
-import chest from "../../../assets/images/chest.mp4"
-import back from "../../../assets/images/back.mp4"
+import biceps from "../../../assets/videos/biceps.mp4"
+import chest from "../../../assets/videos/chest.mp4"
+import back from "../../../assets/videos/back.mp4"
 import { Card, CardBody, CardTitle, Col, Row } from "reactstrap"
 import "./weightTraining.css"
 

@@ -1,6 +1,6 @@
-import plank from "../../../assets/images/plank.mp4"
-import stretching from "../../../assets/images/stretching.mp4"
-import wheel_rollout from "../../../assets/images/wheel_rollout.mp4"
+import plank from "../../../assets/videos/plank.mp4"
+import stretching from "../../../assets/videos/stretching.mp4"
+import wheel_rollout from "../../../assets/videos/wheel_rollout.mp4"
 import { Card, CardBody, CardTitle, CardText, Col, Row } from "reactstrap"
 import "./mobilityAndCore.css"
 

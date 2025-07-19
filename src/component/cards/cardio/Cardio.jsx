@@ -1,6 +1,6 @@
-import battle_ropes from "../../../assets/images/battle_ropes.mp4"
-import bicycle from "../../../assets/images/bicycle.mp4"
-import cardio from "../../../assets/images/cardio.mp4"
+import battle_ropes from "../../../assets/videos/battle_ropes.mp4"
+import bicycle from "../../../assets/videos/bicycle.mp4"
+import cardio from "../../../assets/videos/cardio.mp4"
 import { Card, CardBody, CardTitle, CardText, Col, Row } from "reactstrap"
 import "./cardio.css"
 

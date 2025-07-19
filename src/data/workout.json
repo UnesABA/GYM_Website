@@ -1,0 +1,74 @@
+[
+  {
+    "id"         : 1,
+    "title"      : "Power Up Your Chest",
+    "category"   : "strength",
+    "duration"   : "25 min",
+    "image"      : "chest.png",
+    "description": "Build strength and definition with targeted chest exercises like bench presses and push-ups. Perfect for boosting upperbody performance",
+    "video"      : "chest_video.mp4"
+  },
+  {
+    "id"         : 2,
+    "title"      : "Sculpt Stronger Biceps",
+    "category"   : "strength",
+    "duration"   : "30 min",
+    "image"      : "biceps.png",
+    "description": "Boost arm strength and size with focused bicep workouts like curls and chin-ups—perfect for building lean, powerful muscle.",
+    "video"      : "biceps_video.mp4"
+  },
+  {
+    "id"         : 3,
+    "title"      : "Forge a Powerful Back",
+    "category"   : "strength",
+    "duration"   : "45 min",
+    "image"      : "back.png",
+    "description": "Strengthen your upper and lower back with rows, deadlifts, and pull-ups—essential for posture, stability, and overall performance.",
+    "video"      : "back_video.mp4"
+  },
+  {
+    "id"         : 4,
+    "title"      : "Master the chin-up bar",
+    "category"   : "strength",
+    "duration"   : "45 min",
+    "image"      : "chin-up.png",
+    "description": "Develop raw upper-body strength and control with pull-up bar exercises. Ideal for building a strong back, defined arms, and functional fitness.",
+    "video"      : "chinUp_video.mp4"
+  },
+  {
+    "id"         : 5,
+    "title"      : "Fat-Burning Cardio Blast",
+    "category"   : "Fat-Burning HIIT",
+    "duration"   : "20 min",
+    "image"      : "cardiooo.png",
+    "description": "High-intensity interval training to burn calories fast.",
+    "video"      : "cardiooo.mp4"
+  },
+  {
+    "id"         : 6,
+    "title"      : "Core & Mobility",
+    "category"   : "Mobility",
+    "duration"   : "20 min",
+    "image"      : "core.png",
+    "description": "Improve posture and core strength with guided mobility exercises.",
+    "video"      : "core.mp4"
+  },
+  {
+    "id"         : 7,
+    "title"      : "Leg Day Blast",
+    "category"   : "Strength Training",
+    "duration"   : "30 min",
+    "image"      : "legs.png",
+    "description": "Target your quads, hamstrings, and glutes with squats, lunges, and leg presses.",
+    "video"      : "legs.mp4"
+  },
+  {
+      "id"         : 8,
+      "title"      : "Ab Wheel Rollout",
+      "category"   : "Core Strength",
+      "duration"   : "10 min",
+      "image"      : "ab-wheel.png",
+      "description": "Strengthen your core and challenge your stability with controlled ab wheel rollouts.",
+      "video"      : "ab-wheel.mp4"
+  }
+]
